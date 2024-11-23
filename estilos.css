@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: raleway;
+}
+@font-face {
+    font-family: akira;
+    src: url('fonts/Akira\ Expanded\ Demo.otf') format('truetype');
+}
+
+#columna1{
+    background-color: rgb(116, 116, 116);
+    height: 12vh;
+    display: flex;
+    padding-left: 1.5rem;
+}
+
+#murcielago {
+    width: 60px;
+    height:60px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#murcielago:hover {
+    width: 65px;
+    height: 65px;
+}
+.fa-desktop {
+font-size: 30px;
+align-items: center;
+display: flex;
+padding: 0 10px;
+color: white;
+}
+.fa-tablet-screen-button {
+font-size: 30px;
+align-items: center;
+display: flex;
+padding: 0 10px;
+
+color: white;
+}
+.fa-mobile-screen-button {
+font-size: 30px;
+align-items: center;
+display: flex;
+padding: 0 10px;
+
+color: white;
+}
+#bat {
+    display: flex;
+    margin-left: auto; 
+    margin-right: 6rem;
+    transform: rotate(-50deg);
+    max-width: 100%; 
+    height: auto; 
+}
+#texto1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    padding-left: 5rem;
+    font-family: akira;
+}
+#texto2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    padding-left: 5rem;
+    font-family: akira;
+}
+#color1 {
+    color: rgb(255, 136, 0);
+    font-family: akira;
+}
+#color2 {
+    color: rgb(53, 13, 235);
+    font-family: akira;
+}
+#color3 {
+    color: rgb(83, 0, 58);
+    font-family: akira;
+}
+#columna2 {
+    background-color:  rgb(116, 116, 116);
+    height: 12vh;
+    align-items: center;
+    display: flex;
+    
+}
+
+#columna3 {
+    background-color:  rgb(116, 116, 116);
+    height: 12vh;
+    text-decoration: none;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    padding-left: 5rem;
+}
+#section1 {
+    height: 88vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.911);
+    display: flex;
+
+}
+#section2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(200, 255, 0);
+}
+#section3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(55, 0, 255);
+}
+#section4 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 0, 0);
+}
+body {
+    background-color: rgb(156, 62, 62);
+}
+
+.nav{
+    color: white;
+    padding: 10px;
+    transition: color 0.2s ease;
+    cursor: pointer;
+    padding-bottom: 1.5px;
+    
+}
+
+.nav:hover {
+    color: rgb(248, 68, 68);
+    border-bottom: 1px solid rgb(248, 68, 68);
+    border-width: 2px;
+    
+}
+
+#SHOP {
+    color: aliceblue;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass {
+    cursor: pointer;
+    color: white;
+    padding-top: 0.7rem;
+    padding-left: 1rem;
+    transition: color 0.5s ease;
+    font-size: 18px;
+}
+
+.fa-magnifying-glass:hover {
+    color: rgb(248, 68, 68);
+}
